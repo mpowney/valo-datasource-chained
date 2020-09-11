@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ChainedDataSource"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="4f9a4eac-8654-404b-a695-6b18822c8219"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

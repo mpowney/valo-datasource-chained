@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "chained-data-source-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/chainedDataSource/ChainedDataSourceApplicationCustomizer.js",
+          "manifest": "./src/extensions/chainedDataSource/ChainedDataSourceApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ChainedDataSourceApplicationCustomizerStrings": "lib/extensions/chainedDataSource/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
